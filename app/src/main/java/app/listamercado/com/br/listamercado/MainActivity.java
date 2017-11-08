@@ -1,4 +1,4 @@
-package app.listamercado.com.br.listamercado;
+﻿package app.listamercado.com.br.listamercado;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     ListView list_view;
     EditText txt_produto;
     ProdutoAdapter adapter;
+
+	String yy;
 
     View.OnClickListener click_ck = new View.OnClickListener() {
 
